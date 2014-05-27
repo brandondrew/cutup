@@ -1,5 +1,11 @@
 Cutup::Application.routes.draw do
-  resources :stories
+  resources :stories do
+  #->Prelang (voting/acts_as_votable)
+  member do
+    get "vote"
+  end
+end
+
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
