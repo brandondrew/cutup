@@ -1,4 +1,5 @@
 ActiveAdmin.register Story do
+  permit_params :title, :body, :body_source
 
   
   # See permitted parameters documentation:
