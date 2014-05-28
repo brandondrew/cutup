@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Cutup::Application.config.secret_key_base = '1b5287e596b22a927fcb5772c0e6e2a527c19077b2504b02de792f9ef624efc6f33b26946cb5f134351abcaccc1ff189902808fa20edeb5b2419b621063513c2'
+CutUp::Application.config.secret_key_base = '1b5287e596b22a927fcb5772c0e6e2a527c19077b2504b02de792f9ef624efc6f33b26946cb5f134351abcaccc1ff189902808fa20edeb5b2419b621063513c2'

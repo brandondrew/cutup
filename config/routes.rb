@@ -1,4 +1,4 @@
-Cutup::Application.routes.draw do
+CutUp::Application.routes.draw do
   get "pages/index"
   resources :stories do
   #->Prelang (voting/acts_as_votable)

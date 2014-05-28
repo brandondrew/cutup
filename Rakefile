@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Cutup::Application.load_tasks
+CutUp::Application.load_tasks
